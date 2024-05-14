@@ -29,8 +29,7 @@ conda activate email_classifier
 source email_classifier/bin/activate
 ```
 
-3. Install the requirements `pip install -r requirements.txt`. Also the model files need to be downloaded to respective directories in src/Models from hugging face "Srimouli04/Fl_assignment_models" because one of the model was over the size limit of github so couldn't upload it here
-
+3. Install the requirements `pip install -r requirements.txt`. Also the model files except Random Forest for Email type prediction is available in the src/Models directly due to size limitations of git hub it needs to be downloaded to respective directories in src/Models/emailtype from hugging face "Srimouli04/Fl_assignment_models" 
 4. See that your current directory is set correctly and run the file `main.py` to start the server. This starts the server on `127.0.0.1:8000/predict`
 
 5. You can run the file `test.py` or you can execute the `curl` command or use postman to execute the request
