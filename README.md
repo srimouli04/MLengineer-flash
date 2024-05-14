@@ -29,7 +29,7 @@ conda activate email_classifier
 source email_classifier/bin/activate
 ```
 
-3. Install the requirements `pip install -r requirements.txt`
+3. Install the requirements `pip install -r requirements.txt`. Also the model files need to be downloaded to respective directories in src/Models from hugging face "Srimouli04/Fl_assignment_models" because one of the model was over the size limit of github so couldn't upload it here
 
 4. See that your current directory is set correctly and run the file `main.py` to start the server. This starts the server on `127.0.0.1:8000/predict`
 
